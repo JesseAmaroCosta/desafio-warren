@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-/**
+﻿/**
  * 
  * Algoritmo que determina se a classe vai ser cancelada ou não ("Aula cancelada” ou “Aula normal”).
  * 
@@ -48,7 +43,7 @@ namespace WarrenDesafio02
                 string? dados = Console.ReadLine();
 
                 // Interrompe o loop caso seja digitado F no console.
-                if (dados == "F")
+                if (string.Compare(dados, "F", true) == 0)
                 {
                     break;
                 }
@@ -66,7 +61,7 @@ namespace WarrenDesafio02
                     }
                     else
                     {
-                        // Adiciona o minuto informa na lista tempoChegada.
+                        // Adiciona o minuto informado na lista tempoChegada.
                         tempoChegada.Add(minutos);
 
                         // Verifica se o minuto corresponde a hora normal ou atraso. 
@@ -80,7 +75,7 @@ namespace WarrenDesafio02
                 }
             }
 
-            // Verifica se vai haver aula ou nao com base nos dados informados. 
+            // Verifica se vai haver aula ou não com base nos dados informados. 
             if (quantidadeHorasNormais >= limiteMinimo)
             {
                 Console.WriteLine(" AULA NORMAL! ");
