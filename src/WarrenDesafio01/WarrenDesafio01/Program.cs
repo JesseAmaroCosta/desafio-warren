@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-/**
+﻿/**
  * 
  * Algoritmo que exibe todos os números n onde a soma de n + reverso(n) resulta em números ímpares abaixo de 1 milhão.
  * 
@@ -46,7 +40,6 @@ namespace WarrenDesafio01
                 number /= 10;
             } while (number > 0);
         }
-
         public static void Main()
         {
             // Cria um lista para salvar os números ímpares.
@@ -88,6 +81,9 @@ namespace WarrenDesafio01
             }
 
             Console.WriteLine("Total: " + listaImpares.Count);
+            Console.WriteLine();
+            Console.WriteLine("Aperte qualquer tecla para sair...");
+            Console.ReadKey();
         }
     }
 }

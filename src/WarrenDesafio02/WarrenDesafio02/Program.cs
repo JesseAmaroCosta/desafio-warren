@@ -84,6 +84,10 @@ namespace WarrenDesafio02
             {
                 Console.WriteLine(" AULA CANCELADA! ");
             }
+
+            Console.WriteLine();
+            Console.WriteLine("Aperte qualquer tecla para sair...");
+            Console.ReadKey();
         }
     }
 }

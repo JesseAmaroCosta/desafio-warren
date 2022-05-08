@@ -22,7 +22,8 @@ namespace WarrenDesafio03
             // Solicita os valores para soma. 
             Console.WriteLine("Insira os valores para soma separados por vírgula. Exemplo: 1, 2, 3.");
 
-            arr = Console.ReadLine()?.Split(',').Select(number => 
+            // Separa e converte os valores inseridos para soma. 
+            arr = Console.ReadLine()?.Split(',').Select(number =>
             {
                 int temp;
                 int.TryParse(number, out temp);
@@ -67,11 +68,10 @@ namespace WarrenDesafio03
             int menorDiferenca = int.MaxValue;
             List<List<int>> numerosFiltrados = new List<List<int>>();
 
-            // Faz um for dentro da lista de somas
             foreach (var item in somas)
             {
 
-                //
+                // Obtem a diferença entre o limite e a soma.
                 int diferenca = Math.Abs(limite - item.Sum());
 
                 if (diferenca <= menorDiferenca)
@@ -83,7 +83,7 @@ namespace WarrenDesafio03
                     continue;
                 }
 
-                // Verifica se o valor é <= a menor soma.
+                // Verifica se o valor é menor ou igual a menor soma.
                 if (item.Count() <= menorSoma)
                 {
                     if (item.Count() < menorSoma)
@@ -117,6 +117,10 @@ namespace WarrenDesafio03
 
                 Console.WriteLine(")");
             }
+
+            Console.WriteLine();
+            Console.WriteLine("Aperte qualquer tecla para sair...");
+            Console.ReadKey();
         }
     }
 }
