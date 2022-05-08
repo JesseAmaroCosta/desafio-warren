@@ -1,0 +1,15 @@
+C:\Users\Jessé\Desktop\DEV\WarrenDesafio03\WarrenDesafio03\bin\Debug\net6.0\WarrenDesafio03.exe
+C:\Users\Jessé\Desktop\DEV\WarrenDesafio03\WarrenDesafio03\bin\Debug\net6.0\WarrenDesafio03.deps.json
+C:\Users\Jessé\Desktop\DEV\WarrenDesafio03\WarrenDesafio03\bin\Debug\net6.0\WarrenDesafio03.runtimeconfig.json
+C:\Users\Jessé\Desktop\DEV\WarrenDesafio03\WarrenDesafio03\bin\Debug\net6.0\WarrenDesafio03.dll
+C:\Users\Jessé\Desktop\DEV\WarrenDesafio03\WarrenDesafio03\bin\Debug\net6.0\WarrenDesafio03.pdb
+C:\Users\Jessé\Desktop\DEV\WarrenDesafio03\WarrenDesafio03\obj\Debug\net6.0\WarrenDesafio03.csproj.AssemblyReference.cache
+C:\Users\Jessé\Desktop\DEV\WarrenDesafio03\WarrenDesafio03\obj\Debug\net6.0\WarrenDesafio03.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jessé\Desktop\DEV\WarrenDesafio03\WarrenDesafio03\obj\Debug\net6.0\WarrenDesafio03.AssemblyInfoInputs.cache
+C:\Users\Jessé\Desktop\DEV\WarrenDesafio03\WarrenDesafio03\obj\Debug\net6.0\WarrenDesafio03.AssemblyInfo.cs
+C:\Users\Jessé\Desktop\DEV\WarrenDesafio03\WarrenDesafio03\obj\Debug\net6.0\WarrenDesafio03.csproj.CoreCompileInputs.cache
+C:\Users\Jessé\Desktop\DEV\WarrenDesafio03\WarrenDesafio03\obj\Debug\net6.0\WarrenDesafio03.dll
+C:\Users\Jessé\Desktop\DEV\WarrenDesafio03\WarrenDesafio03\obj\Debug\net6.0\refint\WarrenDesafio03.dll
+C:\Users\Jessé\Desktop\DEV\WarrenDesafio03\WarrenDesafio03\obj\Debug\net6.0\WarrenDesafio03.pdb
+C:\Users\Jessé\Desktop\DEV\WarrenDesafio03\WarrenDesafio03\obj\Debug\net6.0\WarrenDesafio03.genruntimeconfig.cache
+C:\Users\Jessé\Desktop\DEV\WarrenDesafio03\WarrenDesafio03\obj\Debug\net6.0\ref\WarrenDesafio03.dll
